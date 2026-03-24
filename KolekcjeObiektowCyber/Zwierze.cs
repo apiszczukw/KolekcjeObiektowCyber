@@ -11,7 +11,6 @@ namespace KolekcjeObiektowCyber
         public string imie;
 
         public int wiek;
-
         public double waga;
 
     }

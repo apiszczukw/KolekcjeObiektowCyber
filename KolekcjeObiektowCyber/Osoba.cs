@@ -29,6 +29,15 @@ namespace KolekcjeObiektowCyber
         {
             Console.WriteLine("Pesel: " + pesel);
             Console.WriteLine($"Imię i nazwisko: {imie} {nazwisko}");
+
+            Console.WriteLine("Zwierzęta: ");
+            foreach (var zwierze in zwierzeta)
+            {
+                Console.WriteLine("Imię zwierzęcia: " + zwierze.imie);
+                Console.WriteLine("Waga zwierzęcia: " + zwierze.waga);
+                Console.WriteLine("Wiek zwierzęcia: " + zwierze.wiek);
+                Console.WriteLine();
+            }
         }
     }
 }

@@ -17,7 +17,6 @@ namespace KolekcjeObiektowCyber
 
         public void DodajOsobe()
         {
-
             Osoba osoba = new();
             
             Console.WriteLine("Podaj imię: ");
@@ -38,16 +37,15 @@ namespace KolekcjeObiektowCyber
 
                 Console.WriteLine("Podaj imie: ");
                 imie = Console.ReadLine();
-                Console.WriteLine("Podaj imie: ");
+                Console.WriteLine("Podaj wiek: ");
                 wiek = int.Parse(Console.ReadLine());
-                Console.WriteLine("Podaj imie: ");
+                Console.WriteLine("Podaj waga: ");
                 waga = double.Parse(Console.ReadLine());
 
                 Zwierze zwierze = new() { imie = imie, waga = waga, wiek = wiek };
 
                 osoba.zwierzeta.Add(zwierze);
             }
-
 
             listaOsob.Add(osoba);
         }
